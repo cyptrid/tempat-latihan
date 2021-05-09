@@ -1,0 +1,132 @@
+ 
+// DOM Selection
+// ======================================================================================
+
+    // ubah bgcolor body html jadi #f4f6f6
+
+// ======================================================================================
+
+    // document.getElementById() -> element
+    /* Latihan  :
+        - ambil id judul,
+        - ubah text jadi nama lengkap
+        - ubah text color jadi red
+        - ubah bgcolor jadi grey
+    */
+        
+
+// ======================================================================================
+
+    //document.getElementsByTagName() -> HTMLCollections
+    /*
+     Latihan :
+     - ambil tag p
+     - buat pengulangan untuk mengambil tag p
+     - ubah bgcolor jadi biru muda
+    */
+
+
+
+// ======================================================================================
+
+    //document.getElementsByClassName() -> HTMLCollections
+    /*
+        Latihan :
+        - ambil class CN
+        - ubah text jadi diubah sama saya
+    */
+          
+
+// ======================================================================================
+
+    //document.querySelector() -> element
+    /*
+        Latihan 1 :
+        - ambil h2 di section id b
+        - ubah text color jadi hijau
+    */ 
+   
+          
+
+     /*
+        Latihan 2 :
+        - ambil l1 item 2 di section id b
+        - ubah text jadi diubah oleh saya
+    */ 
+     
+
+// ======================================================================================
+
+    //document.querySelectorAll();  -> nodelist
+    /*
+        Latihan : 
+        - ambil tag p(4);
+        - ubah textnya menjadi "dirubah ku aing";
+    */ 
+
+
+// ======================================================================================
+
+    // Scope DOM, gabung selector & tagname
+    /*
+        Latihan :
+        - ambil dengan selector(section b ) & bytagname(item 3)
+        - ubah bg.color jadi kuning
+    */
+   
+
+// ======================================================================================
+
+    // Remove Attribute
+    // Latihan : ambil id c hapus attribut class="gatau"
+
+// ======================================================================================
+
+    // setAttribute()
+    // Latihan : ambil id c tambah attribut name="nama"
+
+// ======================================================================================
+
+    // removechild() 
+    // Latihan : ambil link di id c, lalu hapus attribute a
+
+// ======================================================================================
+
+    // DOM Replace Element
+
+    /*
+    suggest : create.Element, createTextNode,appendChild, replaceChild
+    Latihan : 
+    - replace element p pada section c,
+    - ganti ke h2 dan text ganti jadi "DOM Replace h2"
+    */
+
+// ======================================================================================
+
+    // DOM Event
+    
+    /*
+    Latihan 1 :
+    - ambil id d
+    - buat function event listener, li bertambah kebawah ketika section d di klik
+    */
+
+    /*
+    Latihan 2 : 
+    - ambil id e
+    - buat function event listener, li bertambah ke atas ketika section d di klik
+    */ 
+
+// =========================Class List=================================================
+        /*
+        Latihan 1 :
+        - ambil h2 di id f
+        - tambahkan class upcase
+        
+        Latihan 2 :
+        - ambil id f hapus class hapus
+
+        latihan 3 :
+        - buat function toggle class tmerah untuk menjalankan function di button 
+        */ 
+        

@@ -1,0 +1,123 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background: black;
+}
+
+.container {
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar'
+        'header header header'
+        'sidebar content content'
+        'footer footer footer';
+    grid-gap: 5px;
+    color: white;
+}
+
+.topbar {
+    grid-area: topbar;
+    width: auto;
+    border: 3px solid rgb(0, 151, 252);
+    text-transform: uppercase;
+}
+
+.topbar h1 {
+    text-align: center;
+}
+
+.topbar h2 {
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+.topbar li {
+    display: inline-block;
+}
+
+.topbar a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 25px;
+    padding: 0;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .5s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+.header {
+    grid-area: header;
+    width: auto;
+    border: 3px solid rgb(255, 174, 0);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    width: auto;
+    border: 3px solid rgb(255, 238, 0);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    grid-area: content;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid rgb(38, 255, 0);
+}
+
+.overflow {
+    width: 200px;
+    height: 200px;
+    /* background-color: thistle; */
+    margin: auto;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+.position1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* display: inline; */
+    margin: auto;
+}
+
+.position2 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    margin: -100px auto auto 450px;
+}
+
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    border: 3px solid rgb(0, 255, 149);
+}

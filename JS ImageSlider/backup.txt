@@ -1,0 +1,11 @@
+    // ambil class container
+    // ambil class jumbo
+    // ambil thumbnails / semua thumb
+      //  buat event listener container
+      // cek apakah yang di klik adalah class thumb
+          // ganti gambar jumbo dengan yang ada di thumb
+          // tambah class fade pada jumbo
+          // hilangkan class fade supaya animasi tetap berjalan
+          // looping semua thumbnails
+              // ubah semua class menjadi thumb saja
+          // tambah class active, supaya gambar yang aktif tetap transparant

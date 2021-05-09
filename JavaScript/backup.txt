@@ -1,0 +1,399 @@
+// While : buat pengulangan yang menampilkan angka 0 - 5
+
+// =======================================================================================
+
+// if..else if..else : buat pengkondisian prompt, jika % 2 = 0 : genap | ganjil | bukan angka
+
+// =======================================================================================
+    // (Aplikasi) Game Suwit Jawa
+
+    // menangkap pilihan player
+
+        // membangkitkan bilangan random
+
+        // Menangkap pilihan computer
+
+        //menentukan rules
+
+        // tampilkan hasilnya dengan alert
+
+        // buat alert confirm selesai
+
+// =======================================================================================
+
+// Switch : buat pengkondisian prompt, jika memasukkan angka 1 | 2 tampikan 1 | 2, else : bukan angka
+
+// =======================================================================================
+
+// function declaration : buat function menghitung sisi kubus , rumus : sisi x sisi x sisi
+
+// =======================================================================================
+
+// function expression : pengenalan diri, nama & umur
+
+// =======================================================================================
+
+// pengulangan rekursif : buat segitiga siku-siku pakai '*'
+
+// =======================================================================================
+// (Aplikasi)  array : buat aplikasi juragan angkot.
+
+        // function tambah penumpang
+
+            // jika angkot masih kosong, naikkan penumpang
+
+            // telusuri seluruh kursi penumpang
+
+            // jika ada kursi kosong naikkan penumpang ke kursi tersebut
+
+            // jika ada nama yang sama, tampilkan pesan kesalahan
+
+            // jika kursi penuh, naikkan penumpang baru ke kursi belakang
+
+        // function hapus penumpang
+           
+            // jika angkot masih kosong, tampilkan pesan kesalahan
+
+            // telusuri seluruh kursi penumpang
+           
+            // jika ada penumpang dengan nama sesuai, hapus / ubah menjadi undefined
+           
+            // jika tidak ada penumpang dengan nama sesuai, tampilkan pesan kesalahan
+
+// ============================START OBJECT===============================================
+    var nama = 'joban';
+    var umur = 10;
+    var nim = 10;
+    
+    // Object Literal 
+    // Konsep = buat object mhs -> nama, umur, object alamat -> jalan, kota
+    
+    // latihan = buat 2 object mahasiswa -> nama, energi, function makan untuk menambah int energi
+ 
+// =======================================================================================
+    // Object with Function Declaration 
+
+     /*
+     Konsep = buat function mhs(nama,nim),
+     berisi object -> nama, nim,
+     tampilkan boject tsb dalam bentuk array 
+     */
+
+    /*
+    Latihan = buat function mhs(nama, energi) 
+    berisi object mhs -> nama, energi. 
+    buat function untuk menambah (makan)
+   */
+
+// =======================================================================================
+    // Constructor
+    // Konsep = buat function Mhs(nama) berisi object nama
+  
+    /* Latihan 1 = buat function Mhs(nama, energi),
+    berisi object -> nama, energi. 
+    function untuk menambah (makan)
+    */
+
+    /* Latihan 2 (constructor versi class) = 
+        buat class mhs,
+        buat constructor(nama, energi),
+        function untuk menambah (makan)
+    */
+    
+// =======================================================================================
+    // Object.Create();
+    /*Konsep = 
+    buat var method berisi object function makan untuk menambah energi
+    buat function mahasiswa(nama, energi) berisi object nama & energi
+    ambil object.create(method)
+    */
+    
+// ============================END OBJECT=================================================
+ 
+    // Execution Phase
+    /*
+    Latihan 1 : 
+    field :
+    - panggil function sayhello
+    - buat function sayhello menampilkan nama & umur
+    */ 
+
+ 
+
+    /*
+    Latihan 2 : buat IIFE concat ig dan akun ig
+    Field : 
+    var instagram = @cyptrid 
+    console.log(cetakURL(instagram))
+    hasil = instagram.com@cyptrid 
+    */ 
+  
+
+
+
+// =======================================================================================
+    /* Hoisting
+     Buat contoh kasus hoisting : 
+     function 1 berisi var nama lalu print
+     function 2 print nama
+     print nama
+     var nama
+     panggil func 1 
+     panggil func 2 isi parameter
+    */
+
+// =======================================================================================
+    // Closure
+    /*  Latihan 1 :
+     field :
+     - buat function tampilNama dalam function init() yang mereturn var nama ke tampilNama
+     - panggil function init() dengan variable lain;
+    */ 
+ 
+    /*
+    Latihan 2 :
+    - buat funtion init yang merterurn function(nama)
+    - panggiln function init dengan variable lain
+    - isi parameternya
+    */
+
+// =======================================================================================
+
+// Function Factory     
+    // Contoh 1 : buat function salam(waktu) yang mereturn function (nama)
+        
+    /*
+    Latihan 2 : buat var add yang berisi function yang mereturn function parentnya untuk ditambah
+    */ 
+    
+// =======================================================================================
+
+// Arrow Function 
+    /*
+    Latihan 1 (1 parameter) : buat func  menampilkan nama
+    */ 
+
+    /*
+    Latihan 2 (2 parameter) : buat func menampilkan nama & umur
+    */                 
+    
+    /*Latihan 3 (mnghitung jmlh huruf pada array) : 
+    buat array mhs lalu gunakan .map*/  
+
+    /*Latihan 4 (mnghitung jmlh huruf pada array) : 
+     buat array mhs lalu gunakan .map
+     tampilkan dalam bentuk tabel
+    */                
+
+    /*
+    Latihan 5 : (memetakan this arrow function kedalam array Pakai konsep constructor)
+    - buat function constructor Mhs berisi nama,umur, 
+    dan arrow function hello mereturn nama & umur
+    */    
+
+    /*
+    Latihan 6 : (memetakan this arrow function kedalam array Pakai konsep literal)
+    - buat function literal mhs berisi nama,umur, 
+    dan arrow function hello mereturn nama & umur
+    */    
+
+// =======================================================================================
+
+// Higher Object Function
+    /*
+    Latihan 1 : buat contoh highet object function (matakuliah, selesai)
+    selesai -> object kedua yang di panggil 
+
+    */ 
+    
+    /*
+    Latihan 2 : buat repeat action alert 3x
+    */ 
+    
+    // -------------Manipulasi Higher Object Function-----------------
+    const angka = [-1,2,5,6,3,0,7,9,8];
+
+    /*
+    Latihan 3 : filter : mencari angka >= 3
+    */ 
+   
+    /*
+    Latihan 4 : map : mengalikan 2 
+    */ 
+
+    /*
+    Latihan 5 : reduce : menjumlakan isi array
+    */ 
+
+    /*
+    Latihan 6 : Method Chaining 
+    - filter : cari > 5
+    - map : kalikan 3
+    - reduce : jumlahkan isi array
+    */ 
+// =======================================================================================    
+
+// Template literals
+    /*
+    Latihan 1 (HTML Fragments): membuat identitas diri nama, umur.
+    */ 
+
+    /*
+    Latihan 2 (HTML Fragments): membuat looping array identitas diri nama, email.
+    */ 
+    const lmhs = [
+        {
+            nama : 'ikhdanul',
+            email : 'jiikhdan@gmail.com'
+        },
+        {
+            nama : 'widad',
+            email : 'joban@gmail.com'
+        }
+    ];
+    
+    /*
+    Latihan 3 (HTML Fragments) : membuat profile lagu
+    judul, penyanyi, album, (feat => ternary)
+    */ 
+    const lagu = {
+                judul : "Tetap Dalam Jiwa",
+                penyanyi : "isyana",
+                feat : "joban"
+            }
+    /*
+    Latihan 4 (HTML Fragments Bersarang) :
+    - buat func cetakMatkul(matkul) -> mereturn looping ol matkul
+    
+    */ 
+   const lmhs1 = {
+       nama : 'joban',
+       semester : 2,
+       matkul : ['kalkulus', 'isi', 'webprog']
+   };
+   
+
+// =======================================================================================    
+
+    // Tagged Template 
+    /*
+    Latihan 1 :
+    - buat func coba(strings, ...values) -> mereturn reduce values || ''
+    - panggil coba dengan var lain
+    */ 
+    
+    /*
+    Latihan 2 :
+    - buat function highlight(strings, ...values) -> mereturn reduce values || ''
+    - kasih element span di dalamnya
+    */ 
+
+// =======================================================================================    
+  
+// Destruction Assignment 
+
+    // Destruction Array
+    const perkenalan = ['Halo', 'Nama', 'Saya', 'Joban'];
+ 
+    /*
+    Latihan 1 : ambil item saya pada array
+    */
+    /*
+    Latihan 2 (skipping item): ambil item terakhir 
+    */ 
+
+    /*
+    Latihan 3 (swap item): 
+    buat swap item var a = 1 & b = 2
+    */ 
+  
+    /*
+    Latihan 4 (Rest Parameter): 
+    tampilkan array 1,2,3,4,5,6
+    */ 
+ 
+
+    // Destructing Object
+    /*
+    Latihan 1 : buat var mhs berisi object nama & umur, panggil nama
+    */
+
+    /*
+    Latihan 2 :
+    buat assignment tanpa deklarasi object nama & umur
+    panggil nama
+    */ 
+
+    /*
+    Latihan 3 : 
+    buat var mhs berisi object nama & umur
+    lalu assign ke variable baru
+    panggil umur
+    */ 
+    
+    /*
+    Latihan 4 : 
+    buat var mhs berisi object nama, umur
+    lalu beri default variable pada email
+    panggil email
+    */ 
+
+    /*
+    Latihan 5 :
+    buat var mhs berisi object nama dan umur
+    buat function getid({id}) mereturn id
+    panggil function getid(mhs)
+    */ 
+
+    // Destructuring
+    /*
+    Latihan 1 : 
+    buat func aritmatika(a,b) -> mereturn 2 operasi, yaitu sum & kali
+    masukkan dalam array
+    tampilkan masing-masing
+    */ 
+
+    /*
+    Latihan 2 :
+    buat func kalkulasi(a,b) -> mereturn semua operasi aritmatika
+    buat array semua nama operasi aritmatika
+    panggil bagi
+    */ 
+   
+// =======================================================================================    
+  
+// For ..Of
+    //          1. Buat array for ..of
+    //          2. Buat string for ..of
+    //          3. Buat looping for ..of
+    //          4. Buat arguments for ..of
+
+// For ..in
+    //          1. buat object for ..in
+
+// Spread Operator
+    //          1. memecah iterable menjadi single element
+    //          2. menggabungkan 2 array
+    //          3. mengcopy array
+
+// Rest Parameter
+    //          1. Buat rest parameter pada array destructuring
+    //          2. Rest Parameter pada Filtering
+
+// Callback
+    //          1. Buat function halo berisi nama disimpan dalam function tampilPesan menampilkan isi func halo
+    //          2. buat object list mahasiswa min 3, tampilkan menggunakan forEach
+    //          3. Anonymous function, buat func tampilkanPesan berisi 1 parameter lalu panggil 
+
+// Anonymous Callback, buat mahasiswa.json berisi object list mahasiswa
+    //          1. buat Asynchronous Callback With Vanilla JavaScript
+    //          2. buat Asynchronous Callback With Jquery
+    //          3. buat asynchronous Callback menampilkan string 1,2 (pakai timer), 3
+
+// Promise
+    //          1. Buat Promise jika var janji di tepati | ingkar
+    //          2. Buat Promise pakai timer jika var janji di tepati setalah beberapa waktu | ingkar setalah beberapa waktu 
+    //          3. Promise.all(), buat promise film dan cuaca
+
+// Async Await
+    //          1. Buat func janji pakai async 
